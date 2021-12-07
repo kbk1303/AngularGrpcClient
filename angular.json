@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "AngularGrpcClient"
+    }
+  },
+  "defaultProject": "AngularGrpcClient",
+  "cli": {
+    "analytics": false
+  }
 }
