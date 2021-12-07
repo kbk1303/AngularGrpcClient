@@ -13,7 +13,7 @@ export class GreeterComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    const client = new GreeterClient('http://localhost:5000');
+    const client = new GreeterClient('https://localhost:5001');
     const req = new HelloRequest();
     req.setName("World!");
     client.sayHello(req, (err: ServiceError, response: HelloReply) => {
