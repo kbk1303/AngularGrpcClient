@@ -1,0 +1,12 @@
+<p>video works!</p>
+
+<div *ngIf=streamsReady>
+  <video controls preload="auto" crossorigin width="300" height="300">
+	  <source type="video/webm" [src]= "sanitizedWebM">
+	  <source type="video/mp4" [src] = "sanitizedMp4">
+  </video>
+</div>
+
+<video width="300" height="300" controls>
+  <source type="video/mp4" src = 'https://skp-instructor.sbs/videos/video.mp4'>
+</video>
